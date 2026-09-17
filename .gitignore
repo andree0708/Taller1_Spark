@@ -1,0 +1,19 @@
+# Entorno virtual - no subir al repo
+venv/
+
+# winutils (binarios de Windows para Hadoop)
+winutils/
+
+# Archivos temporales de Spark
+*.crc
+_SUCCESS
+
+# Logs
+*.log
+__pycache__/
+*.pyc
+
+# Data pesada - no subir al repo (regenerar con scraper.py)
+taller1/data/online_retail.zip
+taller1/data/online_retail.csv
+taller1/data/*.xlsx
